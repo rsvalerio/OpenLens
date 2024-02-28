@@ -37,6 +37,8 @@ jobs:
       - name: Patch Upstream Lens
         run: |
           ls -lah
+          ls -lah lens/
+          ls -lah lens/openlens
           pwd
           node update.js
 
